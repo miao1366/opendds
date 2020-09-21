@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR)$(Platform);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-v140|Win32'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-v100|Win32'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR)$(Platform);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-v140|Win32'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-v100|Win32'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR)$(Platform);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-v140|x64'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-v100|x64'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR)$(Platform);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-v140|x64'">
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-v100|x64'">
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)WorkDir</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=$(ACE_ROOT)\lib;$(DDS_ROOT)\lib;$(DDS_ROOT)\bin;$(QT_BIN);$(QTDIR);$(PATH) $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerCommandArguments>4545</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>

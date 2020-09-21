@@ -1,0 +1,42 @@
+#include "dds/DdsDcpsCore.idl"
+#include "tao/CharSeq.pidl"
+
+module Data_Exchange_Platform {
+
+#pragma DCPS_DATA_TYPE "Data_Exchange_Platform::ObjectAttribute"
+#pragma DCPS_DATA_KEY "Data_Exchange_Platform::ObjectAttribute instanceName"
+	struct ObjectAttribute {
+		string instanceName;
+		string className;
+		string attributeName;
+		string attributeType;
+		CORBA::CharSeq attributeValue;
+	};
+	
+#pragma DCPS_DATA_TYPE "Data_Exchange_Platform::InterationParameter"
+#pragma DCPS_DATA_KEY "Data_Exchange_Platform::InterationParameter parameterName"
+	struct InterationParameter {
+		string parameterName;
+		string parameterType;
+		CORBA::CharSeq parameterValue;
+	};
+	
+	typedef sequence<InterationParameter> paramlst;
+	
+#pragma DCPS_DATA_TYPE "Data_Exchange_Platform::Interation"
+#pragma DCPS_DATA_KEY "Data_Exchange_Platform::Interation timeStamp"
+	struct Interation {
+		long long timeStamp;
+		string interationName;
+		paramlst parameterList;
+	};
+	
+	typedef sequence<Interation> InterationList;
+
+#pragma DCPS_DATA_TYPE "Data_Exchange_Platform::Interations"
+	struct Interations {
+		long long timeStamp;
+		InterationList interationlst;
+	};
+
+};
